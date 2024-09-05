@@ -1,5 +1,8 @@
 import nmap
 
+#!/usr/bin/env python3
+
+
 def stealth_scan_with_decoy(ip_address, decoys):
     # Initialize the nmap scanner
     nm = nmap.PortScanner()
